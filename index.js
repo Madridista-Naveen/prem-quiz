@@ -164,7 +164,7 @@ function submitAnswer() {
         startTimer();
     } else {
         quizForm.style.display = 'none';
-        questionText.textContent = 'Quiz Complete';
+        questionText.textContent = 'Quiz Completed!';
         displayTimeTakenForQuestions();
     }
 }
@@ -183,7 +183,7 @@ function displayTimeTakenForQuestions() {
     const totalQuestionTime = document.createElement('p');
     totalQuestionTime.textContent = `Total Time Taken: ${totalTimeTaken} seconds`;
 
-    marks = Math.max(marks, 0); // Ensure marks are not negative
+    marks = Math.max(marks, 0); 
     const totalMarksDisplay = document.createElement('p');
     totalMarksDisplay.textContent = `Total Marks: ${marks} Marks`;
 
@@ -191,6 +191,8 @@ function displayTimeTakenForQuestions() {
     timeTakenContainer.appendChild(totalMarksDisplay);
     document.body.appendChild(timeTakenContainer);
 }
+
+
 
 displayQuestion();
 startTimer();

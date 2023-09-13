@@ -1,14 +1,14 @@
     body {
         font-family: Arial, sans-serif;
-        background-color: #121212; /* Dark background color */
-        color: #fff; /* White text color */
+        background-color: #121212; 
+        color: #fff; 
         margin: 0;
         padding: 0;
     }
 
     h1 {
         text-align: center;
-        color: #FFD700; /* Gold color for headings */
+        color: #FFD700; 
     }
 
     .quiz-container {
@@ -16,14 +16,14 @@
         margin: 0 auto;
         padding: 20px;
         text-align: center;
-        background-color: #1E1E1E; /* Dark gray background color */
+        background-color: #1E1E1E; 
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for the container */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     }
 
     .question {
-        background-color: #333; /* Darker gray background color for questions */
-        border: 1px solid #444; /* Slightly darker border color */
+        background-color: #333; 
+        border: 1px solid #444; 
         border-radius: 5px;
         padding: 20px;
         margin-bottom: 20px;
@@ -31,9 +31,9 @@
 
     label {
         display: block;
-        text-align: left; /* Left-align the label text */
+        text-align: left;
         margin-bottom: 10px;
-        color: #fff; /* White text color for labels */
+        color: #fff; 
     }
 
     label > input {
@@ -44,16 +44,16 @@
     .timer {
         font-size: 24px;
         margin-bottom: 10px;
-        color: #FFD700; /* Gold color for timer */
+        color: #FFD700; 
     }
 
     .time-taken {
-        font-size: 18px; /* Orange color for time-taken */
+        font-size: 18px; 
     }
 
     #submit-button {
-        background-color: #FFD700; /* Gold color for the button background */
-        color: #121212; /* Dark background color for button text */
+        background-color: #FFD700; 
+        color: #121212; 
         border: none;
         padding: 10px 20px;
         border-radius: 5px;
@@ -61,11 +61,10 @@
         transition: background-color 0.3s ease;
     }
 
-    /* Add CSS styles for the time taken and total marks */
 
 
 .time-taken-container h2 {
-    color: #FFD700; /* Gold color for heading */
+    color: #FFD700; 
 }
 
 .time-taken-container p {

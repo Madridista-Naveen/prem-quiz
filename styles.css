@@ -1,0 +1,110 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #121212; /* Dark background color */
+        color: #fff; /* White text color */
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: #FFD700; /* Gold color for headings */
+    }
+
+    .quiz-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        background-color: #1E1E1E; /* Dark gray background color */
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for the container */
+    }
+
+    .question {
+        background-color: #333; /* Darker gray background color for questions */
+        border: 1px solid #444; /* Slightly darker border color */
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        text-align: left; /* Left-align the label text */
+        margin-bottom: 10px;
+        color: #fff; /* White text color for labels */
+    }
+
+    label > input {
+        vertical-align: middle;
+        margin-right: 5px;
+    }
+
+    .timer {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #FFD700; /* Gold color for timer */
+    }
+
+    .time-taken {
+        font-size: 18px; /* Orange color for time-taken */
+    }
+
+    #submit-button {
+        background-color: #FFD700; /* Gold color for the button background */
+        color: #121212; /* Dark background color for button text */
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Add CSS styles for the time taken and total marks */
+
+
+.time-taken-container h2 {
+    color: #FFD700; /* Gold color for heading */
+}
+
+.time-taken-container p {
+    margin: 5px 0;
+}
+
+/* Style for Total Marks */
+.time-taken-container p:last-child {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFD700; /* Gold color for total marks */
+}
+
+.time-taken-container h2 {
+    color: #FFD700;
+}
+
+.time-taken-container p {
+    margin: 5px 0;
+}
+
+.time-taken-container {
+    font-size: 18px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    text-align: center;
+    border: 1px solid grey; 
+    border-radius: 5px;
+    background-color: #333; /* Darker gray background color */
+    border: 1px solid #444;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.total-time-container h2 {
+    color: #FFD700;
+}
+
+.total-time-container p {
+    margin: 5px 0;
+}

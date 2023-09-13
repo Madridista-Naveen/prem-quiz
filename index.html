@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Premier League Quiz</h1>
+    <div class="quiz-container">
+        <div class="question">
+            <h1 id="question-number"> </h1>
+            <p id="question-text"></p>
+            <form id="quiz-form">
+                <label>
+                    <input type="radio" name="answer" value="Paris"> Paris
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="Berlin"> Berlin
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="London"> London
+                </label>
+                <label>
+                    <input type="radio" name="answer" value="Rome"> Rome
+                </label>
+                <input type="submit"  name="submit" value="submit">
+            </form>
+           
+        </div>
+        <div class="timer">
+            <span id="time-left">30</span> seconds left
+        </div>
+        <div class="time-taken">
+            Previous Answer: <span id="time-taken"></span>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
